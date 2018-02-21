@@ -1,6 +1,6 @@
 # Allefro-Package-Name
 
-You need to compile using `gcc -g -o`
+You need to compile using `gcc -g -o main main.c $(pkg-config --libs allegro-5 allegro_XXXXX-5)`. Besides, `allegro_XXXXX-5` maybe one of the following(depends on what you need):
 
 - /usr/lib/pkgconfig/allegro_audio-5.pc
 - /usr/lib/pkgconfig/allegro_acodec-5.pc
